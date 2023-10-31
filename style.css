@@ -1,0 +1,20 @@
+.container-1{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+}
+
+.bilde{
+    width: 500px;
+}
+
+.tekst {
+    width: 450px;
+    background-color: lightgray;
+    /* color: white; */
+   
+}
+.tekst *{
+    padding-left: 20px; 
+    flex-direction: column;
+}
